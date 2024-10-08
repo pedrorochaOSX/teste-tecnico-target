@@ -1,0 +1,11 @@
+Considerando que as 3 lâmpadas estejam em salas diferentes, que só posso fazer duas visitas, e não posso tocar nas lâmpadas:
+1. Ligo o interruptor 1 e vou até a sala da luz A
+2. Desligo o interruptor 1, ligo o interruptor 2 e vou até a sala da luz B
+
+Se a luz A estiver apagada ela é controlada pelo interruptor 2 ou 3
+	Se a luz B estiver apagada, ela é controlada pelo interruptor 1 ou 3
+	Se a luz B estiver acesa, ela é controlada pelo interruptor 2, luz A é controlada pelo interruptor 3 e consequentemente a luz C é controlada pelo interruptor 1 - Resolvido
+
+Se a luz A estiver acesa ela é controlada pelo interruptor 1
+	Se a luz B estiver apagada, ela é controlada pelo interruptor 2 ou 3
+	Se a luz B estiver acesa, ela é controlada pelo interruptor 2 e consequentemente a luz C é controlada pelo interruptor 3 - Resolvido
